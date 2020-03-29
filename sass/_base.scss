@@ -1,0 +1,53 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+//BREAKPOINTS
+$bp-largest: 75em;   //1200px;
+$bp-large: 68.75em;  //1100px;
+$bp-medium: 62.5em;  //1000px;
+$bp-medium1: 56.25em; //900px; 
+$bp-small: 50em;     //800px;
+$bp-small1: 48em;    //768px;
+$bp-small2: 43.75em; //700px;
+$bp-smallest: 37.5em; //600px;
+
+//TEXT-COLORS
+$color-text-darkblue: #052F78;
+$color-text-dark: #748491;
+$color-text-white: #fff;
+
+//COLORS
+$color-light: #EDF4F9;
+$color-blue: #0A7EFF;
+$color-green: #4ED598;
+$color-grey: #979797;
+$color-grey-light: #CADAE6;
+$color-black: #000;
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; //1rem = 10px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 2.6rem;
+    font-size: 1.6rem;
+    min-height: 100vh;
+}
+/*
+@media (min-width: 1200px) {
+    .container {
+      max-width: 1440px; 
+    } 
+}*/
